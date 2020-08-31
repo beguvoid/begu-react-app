@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Goback from "../Side/Goback";
+import DiceGif from "../images/dice.gif";
 
 export default class Dice extends Component {
   state = {
@@ -22,6 +23,11 @@ export default class Dice extends Component {
       <div>
         <Goback />
         <div className="App" style={{ marginTop: 100 }}>
+          <img
+            style={{ width: 100, height: 100, marginBottom: 20 }}
+            src={DiceGif}
+          />
+          <br />
           <button onClick={this.handleSubmit}>Roll the die</button>
           <div>
             <h3>The roll was: {this.state.diceA + this.state.diceB}</h3>

@@ -83,7 +83,7 @@ export default class Navbars extends Component {
             <span style={{ color: "#cc931d", fontWeight: "bolder" }}>
               Project A
             </span>{" "}
-            being developed by {""}
+            is being developed by {""}
             <div className="tooltip">
               <a
                 style={{ color: "white" }}
