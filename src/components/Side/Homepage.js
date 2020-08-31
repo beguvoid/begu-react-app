@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Coin from "../projects/Coin";
+import Coin from "../projects/CoinFlip";
 import Dice from "../projects/Dice";
 import Random from "../projects/Random";
 import Navbars from "./Navbars";
-import RPS from "../projects/RPS";
+import RPS from "../projects/RockPaperScissors";
 import Login from "../projects/Login";
 import Api from "../projects/Api";
 import DisplayForm from "../projects/DisplayForm";
